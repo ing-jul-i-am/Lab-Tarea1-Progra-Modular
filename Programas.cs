@@ -9,7 +9,7 @@ namespace Lab_Tarea1_Progra_Modular
     public class Programas
     {
         public static void FuncionExtra()
-        {
+        { //Solo se usa para testeo
             Console.WriteLine("Esta es una funcion extra.");
             List<int> list = new List<int>();
             list.Add(1);

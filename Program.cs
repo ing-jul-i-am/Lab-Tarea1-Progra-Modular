@@ -45,6 +45,7 @@ namespace Lab_Tarea1_Progra_Modular
             {
                 case 0: 
                     Console.WriteLine("¡Gracias por utilizar mi sistema!");
+                    Console.WriteLine("Desarrollado por Ing. Julian Andres Barrera.");
                     Console.ReadKey();
                     break;
 
@@ -70,6 +71,56 @@ namespace Lab_Tarea1_Progra_Modular
 
                 case 5:
                     CalculoBilletes();
+                    Menu();
+                    break;
+
+                case 6:
+                    Clasificacion();
+                    Menu();
+                    break;
+
+                case 7:
+                    SueldoDiario();
+                    Menu();
+                    break;
+
+                case 8:
+                    Sigma();
+                    Menu();
+                    break;
+
+                case 9:
+                    EquipoGanador();
+                    Menu();
+                    break;
+
+                case 10:
+                    TablasMultiplicar();
+                    Menu();
+                    break;
+
+                case 11:
+                    NumeroPerfecto();
+                    Menu();
+                    break;
+
+                case 12:
+                    DiaDeLaSemana();
+                    Menu();
+                    break;
+
+                case 13:
+                    SerieFibonacci();
+                    Menu();
+                    break;
+
+                case 14:
+                    FormulaDeA();
+                    Menu();
+                    break;
+
+                case 15:
+                    EnteroPosNeg();
                     Menu();
                     break;
 
